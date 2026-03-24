@@ -1,0 +1,42 @@
+# Raw data - never push large files
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.xlsx
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+venv/
+.venv/
+
+# Mac
+.DS_Store
+Thumbs.db
+
+# Raw data - never push large files to GitHub
+data/raw/*.csv
+data/raw/*.zip
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+venv/
+.venv/
+
+# Mac system files
+.DS_Store
